@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#channels {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
