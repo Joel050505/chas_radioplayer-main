@@ -1,13 +1,16 @@
 Give answers in swedish to the following questions in a text-file in your repo:
 
-1. What is OWASP and what is its primary mission as described in the article? OWASP är en global organisation som fokuserar på att förbättra säkerheten för webbaplikationer. Målet med deras organisatioen är att se till att man ska underlätta mjukvaruutveckling genom att bidra med konstands fria resurser och verktyg och bästa medel för utvecklare för att det ska bli så säkert som möjligt.
+1. What is OWASP and what is its primary mission as described in the article? OWASP är en global organisation som fokuserar på att förbättra säkerheten för webbaplikationer.
+ Målet med deras organisatioen är att se till att man ska underlätta mjukvaruutveckling genom att bidra med konstands fria resurser och verktyg och bästa medel för utvecklare
+  för att det ska bli så säkert som möjligt.
 
 2. Explain the concept of "Injection". Provide an example of how an injection attack could compromise a web application's security.
    Det är en säkerhetssårbarhet som när en hackare kan lägga en skadlig kod till. T.e.x i ett formulär och den skickas in i en databas och sedan ska gör denna kod så att all data tas bort.
 
 3. Explain two strategies to prevent Broken Authentication vulnerabilities.
 
-Det kan fungera med att använda flervägsautenisering så att även om hackaren får tillgång till lösenordet så behövs det skickas ett sms till ett nummer och få en kod för att få tillgång till kontot. Detta försvårar proccesen att få tillgång till konton. Man kan även använda sig av ett begränsat inloggningsförsöks antal och att man måste verifiera sig med mail eller nummer om detta antal överskrids. Detta gör man för att motverka brute force attacker.
+Det kan fungera med att använda flervägsautenisering så att även om hackaren får tillgång till lösenordet så behövs det skickas ett sms till ett nummer och få en kod för att få tillgång till kontot. Detta försvårar proccesen att få tillgång till konton. Man kan även använda sig av ett begränsat inloggningsförsöks antal och att man måste verifiera sig med mail
+ eller nummer om detta antal överskrids. Detta gör man för att motverka brute force attacker.
 
 4. Describe the potential consequences of Insecure Deserialization in web applications. How can developers protect against such attacks?
 
